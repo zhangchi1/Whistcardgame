@@ -1,0 +1,16 @@
+
+
+ // return the number of players who have cards
+ private int playershascards() {
+
+ int num = 0;
+ for(int i = 0; i< listofWhistPlayer.size(); i++) {
+ if(listofWhistPlayer.get(i).listCard.size() > 0){
+ return num = num +1;
+ }//end if
+ else {
+ //do nothing
+ }
+ }
+ return num;
+ }
