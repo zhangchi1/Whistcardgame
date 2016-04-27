@@ -1,28 +1,5 @@
 
 
- public <K> void startGame(CardGameModel<K> game, int numPlayers) {
-  Scanner input;
-  input = new Scanner(rd);
-  List<K> deck= game.getDECK();
-  game.startplay(numPlayers, deck);
-  try{
-  ap.append(game.getgameState());
-
-  }catch(IOException e) {
-  e.printStackTrace();
-  }
-  while(! game.isGameOver) {
-
-  //ask for user input
-  int cardIdx;
-
-  String in = input.next();
-
-
-  }
-
-
- }
 
 
 package cs3500.hw03;
